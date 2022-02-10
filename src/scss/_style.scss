@@ -1,0 +1,26 @@
+body {
+  background-color: #130616;
+  header {
+    display: flex;
+    justify-content: center;
+    .header-inner {
+      max-width: 1720px;
+      width: 100%;
+      @include flex-justify(space-between);
+      align-items: center;
+      margin: 20px 0;
+      .navigation {
+        ul {
+          @include flex-justify(space-between);
+          color: rgb(248, 242, 242);
+          li {
+            margin: 0 10px 0 10px;
+            text-transform: capitalize;
+            font-size: 22px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+}
