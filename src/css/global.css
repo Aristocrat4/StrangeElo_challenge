@@ -110,7 +110,22 @@ input {
   border-radius: 0;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../../assets/fonts/Roboto-Regular.woff2") format("woff2"), url("../../assets/fonts/Roboto-Regular.woff") format("woff"), url("../../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  max-width: 1631px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 body {
+  font-family: "Roboto";
   background-color: #130616;
 }
 
@@ -125,7 +140,7 @@ body header {
 
 body header .header-inner {
   max-width: 1720px;
-  width: 100%;
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,6 +151,7 @@ body header .header-inner {
       -ms-flex-align: center;
           align-items: center;
   margin: 20px 0;
+  vertical-align: middle;
 }
 
 body header .header-inner .navigation ul {
@@ -153,5 +169,75 @@ body header .header-inner .navigation ul li {
   text-transform: capitalize;
   font-size: 22px;
   line-height: 26px;
+}
+
+body .first-intro-sec .container .introduction {
+  padding-top: 183px;
+  padding-bottom: 380px;
+}
+
+body .first-intro-sec .container .introduction .title-first-sec {
+  text-transform: capitalize;
+  font-size: 42px;
+  color: #faf6f6;
+  text-align: center;
+}
+
+body .registration-sec .container .reg-form-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+body .registration-sec .container .left-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  margin-top: 80px;
+}
+
+body .registration-sec .container .left-text .circle-1 {
+  height: 34px;
+  width: 34px;
+  background-color: #f7f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: #130616;
+}
+
+body .registration-sec .container .left-text .reg-text-content {
+  margin-left: 38px;
+}
+
+body .registration-sec .container .left-text .reg-text-content .reg-title {
+  font-size: 42px;
+  text-transform: capitalize;
+  line-height: 49px;
+}
+
+body .registration-sec .container .left-text .reg-text-content .steps {
+  font-size: 32px;
+  color: #a9a9a9;
+  line-height: 38px;
+}
+
+body .registration-sec .container .left-text .reg-text-content .reg-description {
+  font-size: 36px;
+  line-height: 54px;
+  max-width: 627px;
+  margin-top: 151px;
 }
 /*# sourceMappingURL=global.css.map */
