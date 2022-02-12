@@ -30,133 +30,236 @@ body {
       }
     }
   }
-  .first-intro-sec {
-    .container {
-      .introduction {
-        padding-top: 183px;
-        padding-bottom: 380px;
-        .title-first-sec {
-          text-transform: capitalize;
-          font-size: 42px;
-          color: rgb(250, 246, 246);
-          text-align: center;
-        }
-      }
-    }
-  }
-  .registration-sec {
-    .container {
-      .reg-form-block {
-        @include flex-justify(space-between);
-        padding-bottom: 50px;
-      }
-      .left-text {
-        display: flex;
-        color: white;
-        margin-top: 80px;
-        .circle-1 {
-          height: 34px;
-          width: 34px;
-          background-color: rgb(247, 242, 242);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border-radius: 50%;
-          color: #130616;
-        }
-        .reg-text-content {
-          margin-left: 38px;
-          .reg-title {
-            font-size: 42px;
+  main {
+    .first-intro-sec {
+      .container {
+        .introduction {
+          padding-top: 183px;
+          padding-bottom: 380px;
+          .title-first-sec {
             text-transform: capitalize;
-            line-height: 49px;
-          }
-          .steps {
-            font-size: 32px;
-            color: #a9a9a9;
-            line-height: 38px;
-          }
-          .reg-description {
-            font-size: 36px;
-            line-height: 54px;
-            max-width: 627px;
-            margin-top: 151px;
-          }
-        }
-      }
-    }
-  }
-  .timer-third {
-    .container {
-      .timer-form-block {
-        @include flex-justify(space-between);
-        padding-bottom: 50px;
-        color: rgb(247, 240, 240);
-        .left-text-timer {
-          @include flex-align(center);
-          margin-left: 72px;
-          .timer-description {
-            font-size: 36px;
-            line-height: 54px;
-            max-width: 627px;
-            font-weight: 500;
-          }
-        }
-      }
-    }
-  }
-  .finish-acc-fourth {
-    .container {
-      .finish-acc-form-block {
-        @include flex-justify(space-between);
-        padding-bottom: 50px;
-        color: rgb(247, 240, 240);
-        .left-text-finish-acc {
-          @include flex-align(center);
-          margin-left: 72px;
-          .finish-acc-description {
-            font-size: 36px;
-            line-height: 54px;
-            max-width: 627px;
-            font-weight: 500;
-          }
-        }
-      }
-    }
-  }
-  .profile-det-fifth {
-    .container {
-      .profile-det-block {
-        @include flex-justify(space-between);
-        padding-bottom: 50px;
-      }
-      .left-text {
-        display: flex;
-        color: white;
-        margin-top: 80px;
-        .circle-2 {
-          height: 34px;
-          width: 34px;
-          background-color: rgb(247, 242, 242);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border-radius: 50%;
-          color: #130616;
-        }
-        .profile-det-text-content {
-          margin-left: 38px;
-          max-width: 730px;
-          .profile-det-title {
             font-size: 42px;
-            text-transform: capitalize;
-            line-height: 49px;
+            color: rgb(250, 246, 246);
+            text-align: center;
           }
-          .profi-steps {
-            font-size: 32px;
-            color: #a9a9a9;
-            line-height: 38px;
+        }
+      }
+    }
+    .registration-sec {
+      .container {
+        .reg-form-block {
+          @include flex-justify(space-between);
+          padding-bottom: 50px;
+        }
+        .left-text {
+          display: flex;
+          color: white;
+          margin-top: 80px;
+          .circle-1 {
+            height: 34px;
+            width: 34px;
+            background-color: rgb(247, 242, 242);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: #130616;
           }
+          .reg-text-content {
+            margin-left: 38px;
+            .reg-title {
+              font-size: 42px;
+              text-transform: capitalize;
+              line-height: 49px;
+            }
+            .steps {
+              font-size: 32px;
+              color: #a9a9a9;
+              line-height: 38px;
+            }
+            .reg-description {
+              font-size: 36px;
+              line-height: 54px;
+              max-width: 627px;
+              margin-top: 151px;
+            }
+          }
+        }
+      }
+    }
+    .timer-third {
+      .container {
+        .timer-form-block {
+          @include flex-justify(space-between);
+          padding-bottom: 50px;
+          color: rgb(247, 240, 240);
+          .left-text-timer {
+            @include flex-align(center);
+            margin-left: 72px;
+            .timer-description {
+              font-size: 36px;
+              line-height: 54px;
+              max-width: 627px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    .finish-acc-fourth {
+      .container {
+        .finish-acc-form-block {
+          @include flex-justify(space-between);
+          padding-bottom: 50px;
+          color: rgb(247, 240, 240);
+          .left-text-finish-acc {
+            @include flex-align(center);
+            margin-left: 72px;
+            .finish-acc-description {
+              font-size: 36px;
+              line-height: 54px;
+              max-width: 627px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    .profile-det-fifth {
+      .container {
+        .profile-det-block {
+          @include flex-justify(space-between);
+          padding-bottom: 50px;
+        }
+        .left-text {
+          display: flex;
+          color: white;
+          margin-top: 80px;
+          .circle-2 {
+            height: 34px;
+            width: 34px;
+            background-color: rgb(247, 242, 242);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: #130616;
+          }
+          .profile-det-text-content {
+            margin-left: 38px;
+            max-width: 730px;
+            .profile-det-title {
+              font-size: 42px;
+              text-transform: capitalize;
+              line-height: 49px;
+            }
+            .profi-steps {
+              font-size: 32px;
+              color: #a9a9a9;
+              line-height: 38px;
+            }
+          }
+        }
+      }
+    }
+    .find-partners {
+      .container {
+        .find-partners-block {
+          @include flex-justify(space-between);
+          padding-bottom: 50px;
+        }
+        .left-text {
+          display: flex;
+          color: white;
+          margin-top: 80px;
+          .circle-3 {
+            height: 34px;
+            width: 34px;
+            background-color: rgb(247, 242, 242);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            color: #130616;
+          }
+          .find-partners-text-content {
+            margin-left: 38px;
+            max-width: 730px;
+            .user-info-p {
+              font-size: 42px;
+              text-transform: capitalize;
+              line-height: 49px;
+              margin-top: 100px;
+            }
+            .find-partners-title {
+              font-size: 42px;
+              text-transform: capitalize;
+              line-height: 49px;
+            }
+            .find-p-steps {
+              font-size: 32px;
+              color: #a9a9a9;
+              line-height: 38px;
+            }
+          }
+        }
+      }
+    }
+    .accept-decline {
+      .container {
+        .accept-decline-block {
+          @include flex-justify(space-between);
+          padding-bottom: 50px;
+          color: rgb(247, 240, 240);
+          .left-text-accept-decline {
+            @include flex-align(center);
+            margin-left: 72px;
+            .accept-decline-description {
+              font-size: 36px;
+              line-height: 54px;
+              max-width: 627px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+    .token {
+      .container {
+        .token-block {
+          @include flex-justify(space-between);
+          padding-bottom: 50px;
+          color: rgb(247, 240, 240);
+          .left-text-token {
+            @include flex-align(center);
+            margin-left: 72px;
+            .token-description {
+              font-size: 36px;
+              line-height: 54px;
+              max-width: 627px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    background-color: #000000;
+    padding: 40px 0;
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .upper {
+        img {
+          max-width: 1200px;
+        }
+      }
+      .lower {
+        img {
+          max-width: 1200px;
         }
       }
     }
